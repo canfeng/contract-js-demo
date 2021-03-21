@@ -22,6 +22,7 @@ await szg.erc721.addToWhitelist('0xf82f96aed5f343545cacc393f33bfe8e006f6928')
 ```
 
 ### 目录结构
+```
 contract-js-demo
 |---dist                            //输出目录
 |---node_modules                    //下载的依赖
@@ -42,3 +43,4 @@ contract-js-demo
 |---package-lock.json
 |---README.md           
 |---webpack.config.js               //webpack配置文件
+```
