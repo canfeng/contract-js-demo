@@ -20,3 +20,25 @@ npm start
 await szg.erc721.totalSupply()
 await szg.erc721.addToWhitelist('0xf82f96aed5f343545cacc393f33bfe8e006f6928')
 ```
+
+### 目录结构
+contract-js-demo
+|---dist                            //输出目录
+|---node_modules                    //下载的依赖
+|---src                             //源码目录
+    |---contract                    //智能合约相关
+         |---ozerc721_abi.json      //OZERC721的ABI文件
+         |---slt_abi.json           //SLT的ABI文件
+    |---util                        //工具目录
+         |---ethers-util.js
+    |---erc721.js                   //OZERC721的wrapper
+    |---index.js                    //总入口
+    |---metamask.js                 //MetaMask交互相关
+    |---slt.js                      //SLT的Wrapper
+    |---template.html               //模板html
+|---.babelrc                        
+|---.gitignore
+|---package.json                    //依赖管理配置文件
+|---package-lock.json
+|---README.md           
+|---webpack.config.js               //webpack配置文件
